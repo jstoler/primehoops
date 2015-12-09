@@ -4,6 +4,10 @@ Rails.application.routes.draw do
   get "strategy" => "pages#strategy"
   get "shooting" => "pages#shooting"
   get "leadership" => "pages#leadership"
+  get "pricing" => "pages#pricing"
+  get "podcast" => "pages#podcast"
+  get "internship" => "pages#internship"
+  get "contact" => "pages#contact"
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
