@@ -4,4 +4,13 @@ class PagesController < ApplicationController
 
   def about
   end
+
+  def strategy
+  end
+
+  def shooting
+  end
+
+  def leadership
+  end
 end
