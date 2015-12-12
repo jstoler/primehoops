@@ -43,15 +43,15 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
             <div class="item active">
-                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide One');"></div>
+                <%= link_to image_tag("engelland.jpg", :size => "260x180", :crop => :fill) %>
                 <div class="carousel-caption">
-                    <h2>Caption 1</h2>
+                    <h2>Technique</h2>
                 </div>
             </div>
             <div class="item">
-                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Two');"></div>
+                <%= link_to image_tag("court.jpg", :size => "260x180", :crop => :fill) %>
                 <div class="carousel-caption">
-                    <h2>Caption 2</h2>
+                    <h2>Strategy</h2>
                 </div>
             </div>
             <div class="item">
@@ -78,39 +78,39 @@
         <div class="row">
             <div class="col-lg-12">
                 <h1 class="page-header">
-                    Welcome to Modern Business
+                    MBA Hoops
                 </h1>
             </div>
             <div class="col-md-4">
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        <h4><i class="fa fa-fw fa-check"></i> Bootstrap v3.2.0</h4>
+                        <h4><i class="fa fa-fw fa-check"></i> Strategy</h4>
                     </div>
                     <div class="panel-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
-                        <a href="#" class="btn btn-default">Learn More</a>
+                        <p>X's and O's are not only a major part of the game, but knowing when and where to implement offensive and defensive gameplans can be key to maximizing a team's strength.</p>
+                        <a href="strategy.html" class="btn btn-default">Learn More</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        <h4><i class="fa fa-fw fa-gift"></i> Free &amp; Open Source</h4>
+                        <h4><i class="fa fa-fw fa-gift"></i> Technique</h4>
                     </div>
                     <div class="panel-body">
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
-                        <a href="#" class="btn btn-default">Learn More</a>
+                        <a href="technique.html" class="btn btn-default">Learn More</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        <h4><i class="fa fa-fw fa-compass"></i> Easy to Use</h4>
+                        <h4><i class="fa fa-fw fa-compass"></i> Leadership</h4>
                     </div>
                     <div class="panel-body">
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
-                        <a href="#" class="btn btn-default">Learn More</a>
+                        <a href="leadership.html" class="btn btn-default">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -120,37 +120,31 @@
         <!-- Portfolio Section -->
         <div class="row">
             <div class="col-lg-12">
-                <h2 class="page-header">Portfolio Heading</h2>
+                <h2 class="page-header">Featured Interviews</h2>
             </div>
             <div class="col-md-4 col-sm-6">
-                <a href="portfolio-item.html">
-                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
-                </a>
+                <%= link_to image_tag("engelland.jpg", :size => "255x215") %>
+                <div class="caption">
+                    <h1>Chip Engelland</h1>
+                </div>
             </div>
             <div class="col-md-4 col-sm-6">
-                <a href="portfolio-item.html">
-                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
-                </a>
+                <%= link_to image_tag("hill.jpg", :size => "255x215") %>
+                <div class="caption">
+                    <h1>Grant Hill</h1>
+                </div>
             </div>
             <div class="col-md-4 col-sm-6">
-                <a href="portfolio-item.html">
-                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
-                </a>
+                <%= link_to image_tag("mchale.jpg", :size => "255x215") %>
+                <div class="caption">
+                    <h1>Kevin McHale</h1>
+                </div>
             </div>
             <div class="col-md-4 col-sm-6">
-                <a href="portfolio-item.html">
-                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
-                </a>
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <a href="portfolio-item.html">
-                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
-                </a>
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <a href="portfolio-item.html">
-                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
-                </a>
+                <%= link_to image_tag("turner.jpg", :size => "255x215") %>
+                <div class="caption">
+                    <h1>Jeff Turner</h1>
+                </div>
             </div>
         </div>
         <!-- /.row -->
