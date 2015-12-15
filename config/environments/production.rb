@@ -80,4 +80,7 @@ Rails.application.configure do
   # Required for Heroku
   # Note to set this to the actual host name
   config.action_mailer.default_url_options = { host: 'mbahoops.heroku.com' }
+
+  config.serve_static_assets = true
+  config.assets.compile = true
 end
