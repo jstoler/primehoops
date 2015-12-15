@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  root 'pages#home'
+  root 'pages#landing'
   get 'about' => 'pages#about'
   get 'strategy' => 'pages#strategy'
   get 'technique' => 'pages#technique'
@@ -9,7 +9,7 @@ Rails.application.routes.draw do
   get 'internship' => 'pages#internship'
   get 'contact' => 'pages#contact'
   get 'interviews' => 'pages#interviews'
-  get 'landing' => 'pages#landing'
+  get 'home' => 'pages#home'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
