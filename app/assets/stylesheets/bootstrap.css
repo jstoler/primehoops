@@ -6760,3 +6760,33 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+
+/* 12.12.2013 */
+/*.col909{width:900px; margin:0px auto;}*/
+.footer, .banner{min-width:1024px;}
+
+/* privacy page */
+.privacyIn{
+    margin: 10px auto;
+    width: 850px;
+    text-align: justify;
+}
+
+.privacyIn p{
+    margin-top: 10px;
+}
+
+.privacyIn h2{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.privacyIn li{
+    list-style: circle;
+    margin-left: 25px;
+}
+
+.privacyIn b{
+    font-weight: bold;
+    font-size: 16px;
+}
