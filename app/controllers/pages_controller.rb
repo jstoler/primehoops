@@ -13,4 +13,22 @@ class PagesController < ApplicationController
 
   def leadership
   end
+
+  def landing
+  end
+
+  def podcast
+  end
+
+  def contact
+  end
+
+  def interviews
+  end
+
+  def pricing
+  end
+
+  def technique
+  end
 end
