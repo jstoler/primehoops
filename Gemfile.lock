@@ -101,7 +101,7 @@ GEM
       activerecord (= 4.2.4)
       activesupport (= 4.2.4)
       bundler (>= 1.3.0, < 2.0)
-      railties (= 4.2.4)
+      railties
       sprockets-rails
     rails-deprecated_sanitizer (1.0.3)
       activesupport (>= 4.2.0.alpha)
@@ -116,7 +116,7 @@ GEM
       rails_stdout_logging
     rails_serve_static_assets (0.0.4)
     rails_stdout_logging (0.0.4)
-    railties (4.2.4)
+    railties
       actionpack (= 4.2.4)
       activesupport (= 4.2.4)
       rake (>= 0.8.7)

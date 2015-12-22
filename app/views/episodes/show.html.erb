@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @episode.title %>
+</p>
+
+<p>
+  <strong>Video:</strong>
+
+  <% if user_signed_in? && current_user.subscribed? %>
+    <%= @episode.video %>
+  <% else %>
+    <%= link_to 'Subscribe To Watch', new_subscription_path %>
+  <% end %>
+</p>
+
+<%= link_to 'Edit', edit_episode_path(@episode) %> |
+<%= link_to 'Back', episodes_path %>

@@ -9,9 +9,20 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
-gem 'bootstrap-sass'
-gem 'devise'
+gem 'bootstrap-sass', '~> 3.3.5.1'
+gem 'devise', '~> 2.0'
+gem 'braintree', '~> 2.56'
+gem 'railties', '~>4.0.0'
 
+
+# Use ActiveModel has_secure_password
+# gem 'bcrypt', '~> 3.1.7'
+
+# Use Unicorn as the app server
+# gem 'unicorn'
+
+# Use Capistrano for deployment
+# gem 'capistrano-rails', group: :development
 
 group :development, :test do
 	gem 'sqlite3'
