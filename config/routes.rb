@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   devise_for :users
+  devise_for :users
   root 'pages#landing'
   get 'about' => 'pages#about'
   get 'strategy' => 'pages#strategy'
