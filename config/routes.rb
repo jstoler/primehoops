@@ -1,6 +1,10 @@
 Rails.application.routes.draw do
+  devise_for :episodes
   devise_for :users
-  devise_for :users
+  
+  resources :episodes
+  resource :subscription
+
   root 'pages#landing'
   get 'about' => 'pages#about'
   get 'strategy' => 'pages#strategy'

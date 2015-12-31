@@ -4,12 +4,14 @@ class EpisodesController < ApplicationController
   # GET /episodes
   # GET /episodes.json
   def index
+    @redirect_path = false
     @episodes = Episode.all
   end
 
   # GET /episodes/1
   # GET /episodes/1.json
   def show
+    @redirect_path = episodes_path
   end
 
   # GET /episodes/new
