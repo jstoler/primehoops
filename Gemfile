@@ -13,6 +13,7 @@ gem 'bootstrap-sass', '~> 3.3.5.1'
 gem 'devise', '~> 3.5.3'
 gem 'braintree', '~> 2.56'
 gem 'railties'
+gem 'schema_to_scaffold', '~> 0.7.2'
 
 
 # Use ActiveModel has_secure_password

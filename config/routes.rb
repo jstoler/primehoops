@@ -1,8 +1,7 @@
 Rails.application.routes.draw do
-  devise_for :episodes
+  resources :episodes
   devise_for :users
   
-  resources :episodes
   resource :subscription
 
   root 'pages#landing'
